@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="counter()">Add</button>
+    <button onclick="nowTime()">Show Time</button>
+    
+</body>
+<script>
+//     let dayName = ["Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "Friday", "Saturday"]
+//     console.log(dayName[5]);
+
+//     let theDate = new Date()
+//     console.log(theDate)
+
+//     function addtwonumber (num1 , num2){
+//         console.log(num1 - num2)
+//     }
+//     addtwonumber(4 , 14)
+//     addtwonumber(22 , 14)
+//     addtwonumber(34 , 13)
+//     addtwonumber(45 , 12)
+//     addtwonumber(56 , 21)
+//     addtwonumber(67 , 11)
+//     addtwonumber(45 , 21)
+//     addtwonumber(34 , 21)
+
+
+//    let num = 0
+//    function counter(){
+//       console.log(++num)
+//    } 
+
+   function nowTime(){
+    let nowTime = new Date()
+    console.log(new Date () .getHours()+ ":" + getMinutes())
+   }
+
+//    function fatherName(){
+//     let myName = ("Malik Fazle Hadi S/O")
+//       alert(myName +" Shams Ur Rehman")
+//     }
+//      fatherName()
+
+// let bigDecimal = Math.random();
+// let improvedNum = (bigDecimal * 6) + 1;
+// let numberOfStars = Math.floor(improvedNum);
+
+// let num = 1168789;
+ 
+// if (num % 2 === 0){
+//     console.log(num, "is even");
+// }else {
+//     console.log(num, "is odd");
+// }
+
+
+let mode = "dark";
+let color;
+
+if (mode === "dark"){
+    color = "black";
+} else if (mode === "blue"){
+    color = "blue";
+} else if (mode === "pink"){
+    color = "pink";
+} else{
+    color = "white"
+}
+</script>
+</html>

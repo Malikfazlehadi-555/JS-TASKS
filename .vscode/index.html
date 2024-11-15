@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Children Nodes selectors</title>
+</head>
+<body>
+    <div>
+        <div>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+            <p>paragraph 3</p>
+            <p>paragraph 4</p>
+            <p>paragraph 5</p>
+        </div>
+    </div>
+</body>
+<script>
+    let para2 = document.childNodes[1].childNodes[2].childNodes[1].childNodes[1].childNodes[3]
+    let para4 = document.childNodes[1].childNodes[2].childNodes[1].childNodes[1].childNodes[7]
+    let para6 = document.childNodes[1].childNodes[2].childNodes[1].childNodes[1].childNodes[9]
+    console.log(para2)
+    console.log(para4)
+    console.log(para6)
+
+    let myId ={
+        Name : "Hadi",
+        roll : 22 ,
+        address : "Ahmed Khel",
+        qualification : "BSCS",
+        
+    }
+    console.log(myId)
+
+    const person = new Object();
+        person.name = "Hadi"
+        person.roll = 22
+        person.section = "A"
+        console.log(person)
+    
+
+
+        const person1 = {
+            firstName : "Malik",
+            lastName : "Hadi",
+            id : 88893,
+            fullName : function(){
+                console.log(this.firstName + " " + this.lastName)
+            }
+        };
+        person1.fullName()
+   
+    
+</script>
+</html>

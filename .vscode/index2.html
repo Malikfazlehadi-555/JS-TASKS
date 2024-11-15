@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY sorting</title>
+</head>
+<body>
+    <script>
+    // Initialize an array with values
+let numbers = [12, 7, 45, 30, 22, 57, 80, 13, 6];
+
+// Arrays to store even and odd numbers
+let evenNumbers = [];
+let oddNumbers = [];
+
+// Loop through the numbers array
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        evenNumbers.push(numbers[i]); // Add to evenNumbers if even
+    } else {
+        oddNumbers.push(numbers[i]); // Add to oddNumbers if odd
+    }
+}
+
+// Print the even and odd numbers
+console.log("Even numbers: " + evenNumbers);
+console.log("Odd numbers: " + oddNumbers);
+
+    
+    </script>
+</body>
+</html>
